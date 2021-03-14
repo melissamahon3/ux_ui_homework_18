@@ -12,6 +12,7 @@ header ul {
 header li {
   display: inline-block;
   padding: 0px 5px;
+  font-family: DM Serif Display;
 }
 header p {
   display: inline-block;
@@ -29,10 +30,11 @@ header p {
 }
 button {
   padding: 15px;
-  background-color: #373738;
+  background-color: #107C89;
   color: white;
   font-size: 15px;
-  border-radius: 4px;
+  font-family: PT Sans;
+  border-radius: 10px;
 }
 footer {
   background-color: #373738;
@@ -46,4 +48,20 @@ footer ul {
 footer li {
   display: inline-block;
   padding: 0px 7px;
+}
+
+.flexContainer {
+  display: flex;
+  width: 33%;
+  flex-direction: row;
+}
+
+.workGrid {
+  display: grid;
+
+}
+
+h1 {
+  font-family: DM Serif Display;
+  color: #107C89;
 }
