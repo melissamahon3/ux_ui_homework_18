@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color: #FFFFFF;
   padding: 15px;
 }
 header ul {
@@ -13,6 +13,7 @@ header li {
   display: inline-block;
   padding: 0px 5px;
   font-family: DM Serif Display;
+  color: #5D6374
 }
 header p {
   display: inline-block;
