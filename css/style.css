@@ -21,6 +21,8 @@ header p {
 
 header img {
   align-content: left;
+  height: 50px;
+  width: 115px;
 }
 
 .heroImg {
