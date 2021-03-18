@@ -18,6 +18,11 @@ header li {
 header p {
   display: inline-block;
 }
+
+header img {
+  align-content: left;
+}
+
 .heroImg {
   background-color: #EBEBEB;
   padding: 100px 15px;
@@ -55,14 +60,32 @@ footer li {
   display: flex;
   width: 33%;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.workGrid {
+
+#workGrid {
   display: grid;
+  align-content: center;
 
 }
 
 h1 {
   font-family: DM Serif Display;
   color: #107C89;
+}
+
+h3 {
+  font-family: DM Serif Display;
+  color:#5D6374
+}
+
+h4 {
+  font-family: DM Serif Display;
+  color: #107C89
+}
+
+p {
+  font-family: PT Sans;
 }
