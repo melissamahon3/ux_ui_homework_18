@@ -22,17 +22,22 @@ header p {
 header img {
   align-content: left;
   height: 50px;
-  width: 115px;
+  width: 150px;
 }
 
 .heroImg {
-  background-color: #EBEBEB;
+  background-image: url(../images/Hero\ image.jpg);
   padding: 100px 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .content {
-  max-width: 300px;
+  max-width: 500px;
   margin: 0 auto;
-  padding: 50px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
   background-color: #FFFFFF;
   text-align: center;
 }
@@ -60,14 +65,14 @@ footer li {
 
 .flexContainer {
   display: flex;
-  width: 33%;
+  width: 45%;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
 
-#workGrid {
+.workGrid {
   display: grid;
   align-content: center;
 
@@ -75,17 +80,25 @@ footer li {
 
 h1 {
   font-family: DM Serif Display;
-  color: #107C89;
+  color:black;
+  font-size: 42px;
+  font-weight: normal;
+  padding:0px;
+  margin: 1px;
 }
 
 h3 {
   font-family: DM Serif Display;
-  color:#5D6374
+  color: #107C89;
+  font-weight: normal;
+  font-size: 32px;
+  padding:0px;
+  margin: 1px;
 }
 
 h4 {
   font-family: DM Serif Display;
-  color: #107C89
+  color: #373738
 }
 
 p {
