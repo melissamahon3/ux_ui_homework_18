@@ -26,7 +26,7 @@ header img {
 }
 
 .heroImg {
-  background-image: url(../images/Hero\ image.jpg);
+  background-image: url(../images/Hero\ image\ 2.jpg);
   padding: 100px 15px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,17 +65,33 @@ footer li {
 
 .flexContainer {
   display: flex;
-  width: 45%;
+  width: 65%;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: auto;
+  padding: 10px;
 }
 
+.mySkills {
+  padding-top: 50px;
+  margin: auto;
+  text-align: center;
+}
+
+.flexContainer div {
+  padding: 20px;
+}
 
 .workGrid {
   display: grid;
   align-content: center;
+  
 
+}
+
+.item1 {
+  grid-area: myArea;
 }
 
 h1 {
@@ -87,18 +103,29 @@ h1 {
   margin: 1px;
 }
 
-h3 {
+h2 {
   font-family: DM Serif Display;
   color: #107C89;
   font-weight: normal;
   font-size: 32px;
   padding:0px;
   margin: 1px;
+
+}
+
+h3 {
+  font-family: DM Serif Display;
+  color: #107C89;
+  font-weight: normal;
+  font-size: 22px;
+  padding:0px;
+  margin: 1px;
 }
 
 h4 {
   font-family: DM Serif Display;
-  color: #373738
+  color: #373738;
+  font-size: 18;
 }
 
 p {
